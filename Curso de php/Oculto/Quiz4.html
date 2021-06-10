@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Perguntas</title>
+    <link rel="stylesheet" href="Modelo.css">
+</head>
+<body>
+    <header>
+        <h1>Responda a questão abaixo</h1>
+    </header>
+    <section>
+        <p>Quem foi o maior assasino e ditador da alemanha ?</p>
+        <strong>E do mundo inteiro?</strong>
+
+        <form method="get" action="FINAL.php">
+            Sua resposta:
+            <input type="radio" name="Ole" id="A" value="1">
+            <label for="A">Chaplin</label></br>
+            <input type="radio" name="Ole" id="B" value="2">
+            <label for="B">Hitler</label>
+            <input type="radio" name="Ole" id="C" value="3">
+            <label for="C">Albert Eistein</label>
+            <input type="submit" value="Verificar">
+            <input type="button" name="Aviso" onclick="Avisado()" value="AVISO">
+
+        </form>
+    </section>
+    <footer>
+        <p class="orientado"> &copy; <strong>Direito autorais de| /Luiz Fabiano\ |</strong></p>
+        <a id="Segredo" onmouseenter="Entro()" href="Easter_egg.html" onmouseout="Saiu()">  </a>
+    </footer>
+    <! -- O easter egg está ai na tag a, digite . ou qualquer outro codigo -->
+    <script>
+    function Entro(){
+        let easter = document.getElementById("Segredo")
+        easter.innerText = "Você encontrou o segredo"
+    }
+    function Saiu(){
+        let easter = document.getElementById("Segredo")
+        easter.innerText = ".";
+    }
+    function Avisado(){
+        alert("Tem um segredo No codigo fonte se quiser ver qual é apenas vá pro codigo fonte")
+    }
+</script>
+</body>
+</html>
