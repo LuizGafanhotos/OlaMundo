@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(to right, #D96F14,#F09622,#DB961A);
+    font-weight: 900;
+    text-align: justify;
+}
+h1,h2{
+    /*
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 2em;
+    */
+    font-family: 'Pacifico', cursive;
+}
+div{
+    width: 700px;
+    height: 600px;
+    background-color: white;
+    padding: 30px;
+    margin: auto;
+    border-radius: 14px;
+}
+p{
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 16px;
+
+}
+h1#titulo{
+    text-align: center;
+    color: #FCBB17;
+}
+header{
+    width: 100%;
+    text-decoration: underline;
+    background-color: whitesmoke;
+}
+main{
+    padding: 20px;
+    width: 500px;
+    height: 700px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+}
+p#Grand{
+    color: brown;
+    font-size: 2em;
+}

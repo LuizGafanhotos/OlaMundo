@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/*Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap');
+body{
+    background-image: linear-gradient(to right, #D96F14,#F09622,#DB961A);
+    font-weight: 900;
+    text-align: justify;
+}
+h1,h2{
+    /*
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 2em;
+    */
+    font-family: 'Pacifico', cursive;
+}
+div{
+    width: 700px;
+    height: 600px;
+    background-color: white;
+    padding: 30px;
+    margin: auto;
+    border-radius: 14px;
+}
+p{
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 16px;
+
+}
+h1#titulo{
+    text-align: center;
+    color: #FCBB17;
+}
+    
+    
