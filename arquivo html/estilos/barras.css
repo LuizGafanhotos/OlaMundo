@@ -1,5 +1,19 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'schooler';
+    src: url(../fontes/Schoolgirls.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    /*format()
+    -opentype (otf)
+    -truetype (ttf)
+    -enbedded-opentype
+    -truetype-aat (apple advance typografy)
+    -svg 
+    */
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -39,6 +53,10 @@ header{
     width: 100%;
     text-decoration: underline;
     background-color: whitesmoke;
+}
+
+h1#Base{
+    font-family: 'schooler';
 }
 main{
     padding: 20px;
