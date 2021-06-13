@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1584205420 source:c:\users\renata\documents\github\meudados\olamundo\curso de linguagem c e c++\compilação\definição\main.c
+	<stdio.h>
+	<stdlib.h>
+
