@@ -70,3 +70,6 @@ p#Grand{
     color: brown;
     font-size: 2em;
 }
+a:hover{
+    color: red;
+}
