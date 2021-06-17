@@ -3,5 +3,7 @@
 	<Workspace title="Workspace">
 		<Project filename="MegaFuckingProject/MegaFuckingProject.cbp" />
 		<Project filename="Compilação/Definição/Definição.cbp" />
+		<Project filename="../../../../Curso de linguagem c e c++/Compilação/Variaveis/Variaveis.cbp" />
+		<Project filename="../../../../Curso de linguagem c e c++/Compilação/Teste_c++/Teste_c++.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>
