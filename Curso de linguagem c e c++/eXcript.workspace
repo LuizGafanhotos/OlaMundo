@@ -5,5 +5,6 @@
 		<Project filename="Compilação/Definição/Definição.cbp" />
 		<Project filename="../../../../Curso de linguagem c e c++/Compilação/Variaveis/Variaveis.cbp" />
 		<Project filename="../../../../Curso de linguagem c e c++/Compilação/Teste_c++/Teste_c++.cbp" />
+		<Project filename="../../../../Curso de linguagem c e c++/Compilação/escape_Sequence/escape_Sequence.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>
