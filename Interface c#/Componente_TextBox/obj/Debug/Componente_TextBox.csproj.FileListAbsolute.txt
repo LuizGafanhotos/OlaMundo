@@ -1,0 +1,10 @@
+C:\Users\renata\Documents\GitHub\MeuDados\OlaMundo\Interface c#\Componente_TextBox\bin\Debug\Componente_TextBox.exe.config
+C:\Users\renata\Documents\GitHub\MeuDados\OlaMundo\Interface c#\Componente_TextBox\bin\Debug\Componente_TextBox.exe
+C:\Users\renata\Documents\GitHub\MeuDados\OlaMundo\Interface c#\Componente_TextBox\bin\Debug\Componente_TextBox.pdb
+C:\Users\renata\Documents\GitHub\MeuDados\OlaMundo\Interface c#\Componente_TextBox\obj\Debug\Componente_TextBox.csproj.AssemblyReference.cache
+C:\Users\renata\Documents\GitHub\MeuDados\OlaMundo\Interface c#\Componente_TextBox\obj\Debug\Componente_TextBox.F_Principal.resources
+C:\Users\renata\Documents\GitHub\MeuDados\OlaMundo\Interface c#\Componente_TextBox\obj\Debug\Componente_TextBox.Properties.Resources.resources
+C:\Users\renata\Documents\GitHub\MeuDados\OlaMundo\Interface c#\Componente_TextBox\obj\Debug\Componente_TextBox.csproj.GenerateResource.cache
+C:\Users\renata\Documents\GitHub\MeuDados\OlaMundo\Interface c#\Componente_TextBox\obj\Debug\Componente_TextBox.csproj.CoreCompileInputs.cache
+C:\Users\renata\Documents\GitHub\MeuDados\OlaMundo\Interface c#\Componente_TextBox\obj\Debug\Componente_TextBox.exe
+C:\Users\renata\Documents\GitHub\MeuDados\OlaMundo\Interface c#\Componente_TextBox\obj\Debug\Componente_TextBox.pdb
