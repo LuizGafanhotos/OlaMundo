@@ -8,13 +8,20 @@
 </head>
 <body>
     <div id="php">
+    <form method="post">
+    A raiz quadrada!!:
+    <input type="number" name="r" id="r">
+    <input type="submit" value="Calcular Raiz">
+    </form>
+
+
         <?php
-            function soma ($n1, $n2){
-                return ($n1 + $n2) / 2;
+            function raiz($v){
+                $raiz = sqrt($v);
+                return $raiz;
             }
-        
-            $somando = soma(4,3);
-            echo "A soma deu o resultado de $somando";
+            $roz = $_POST["r"] ?? 5;
+            echo "Deu a raiz ". number_format(raiz($roz),1);
         ?>
     </div>
 </body>
