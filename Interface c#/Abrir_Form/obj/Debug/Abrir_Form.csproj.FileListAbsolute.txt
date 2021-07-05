@@ -1,0 +1,11 @@
+C:\Users\renata\Documents\GitHub\MeuDados\OlaMundo\Interface c#\Abrir_Form\bin\Debug\Abrir_Form.exe.config
+C:\Users\renata\Documents\GitHub\MeuDados\OlaMundo\Interface c#\Abrir_Form\bin\Debug\Abrir_Form.exe
+C:\Users\renata\Documents\GitHub\MeuDados\OlaMundo\Interface c#\Abrir_Form\bin\Debug\Abrir_Form.pdb
+C:\Users\renata\Documents\GitHub\MeuDados\OlaMundo\Interface c#\Abrir_Form\obj\Debug\Abrir_Form.csproj.AssemblyReference.cache
+C:\Users\renata\Documents\GitHub\MeuDados\OlaMundo\Interface c#\Abrir_Form\obj\Debug\Abrir_Form.Form1.resources
+C:\Users\renata\Documents\GitHub\MeuDados\OlaMundo\Interface c#\Abrir_Form\obj\Debug\Abrir_Form.F_Ex.resources
+C:\Users\renata\Documents\GitHub\MeuDados\OlaMundo\Interface c#\Abrir_Form\obj\Debug\Abrir_Form.Properties.Resources.resources
+C:\Users\renata\Documents\GitHub\MeuDados\OlaMundo\Interface c#\Abrir_Form\obj\Debug\Abrir_Form.csproj.GenerateResource.cache
+C:\Users\renata\Documents\GitHub\MeuDados\OlaMundo\Interface c#\Abrir_Form\obj\Debug\Abrir_Form.csproj.CoreCompileInputs.cache
+C:\Users\renata\Documents\GitHub\MeuDados\OlaMundo\Interface c#\Abrir_Form\obj\Debug\Abrir_Form.exe
+C:\Users\renata\Documents\GitHub\MeuDados\OlaMundo\Interface c#\Abrir_Form\obj\Debug\Abrir_Form.pdb

@@ -34,6 +34,7 @@ namespace Componente_TextBox
             this.label1 = new System.Windows.Forms.Label();
             this.tb_LV = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.btn_Mostrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_adicionar
@@ -80,11 +81,22 @@ namespace Componente_TextBox
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // btn_Mostrar
+            // 
+            this.btn_Mostrar.Location = new System.Drawing.Point(15, 349);
+            this.btn_Mostrar.Name = "btn_Mostrar";
+            this.btn_Mostrar.Size = new System.Drawing.Size(276, 23);
+            this.btn_Mostrar.TabIndex = 5;
+            this.btn_Mostrar.Text = "Mostrar Veiculos";
+            this.btn_Mostrar.UseVisualStyleBackColor = true;
+            this.btn_Mostrar.Click += new System.EventHandler(this.btn_Mostrar_Click);
+            // 
             // F_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(303, 384);
+            this.Controls.Add(this.btn_Mostrar);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tb_LV);
             this.Controls.Add(this.label1);
@@ -106,6 +118,7 @@ namespace Componente_TextBox
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox tb_LV;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_Mostrar;
     }
 }
 

@@ -37,5 +37,11 @@ namespace Componente_TextBox
         {
             tb_LV.Clear();
         }
+
+        private void btn_Mostrar_Click(object sender, EventArgs e)
+        {
+            F_Veiculos f_Veiculos = new F_Veiculos(tb_LV.Text);
+            f_Veiculos.ShowDialog();
+        }
     }
 }

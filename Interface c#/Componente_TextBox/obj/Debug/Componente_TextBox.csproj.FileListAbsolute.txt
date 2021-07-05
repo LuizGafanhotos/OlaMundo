@@ -8,3 +8,4 @@ C:\Users\renata\Documents\GitHub\MeuDados\OlaMundo\Interface c#\Componente_TextB
 C:\Users\renata\Documents\GitHub\MeuDados\OlaMundo\Interface c#\Componente_TextBox\obj\Debug\Componente_TextBox.csproj.CoreCompileInputs.cache
 C:\Users\renata\Documents\GitHub\MeuDados\OlaMundo\Interface c#\Componente_TextBox\obj\Debug\Componente_TextBox.exe
 C:\Users\renata\Documents\GitHub\MeuDados\OlaMundo\Interface c#\Componente_TextBox\obj\Debug\Componente_TextBox.pdb
+C:\Users\renata\Documents\GitHub\MeuDados\OlaMundo\Interface c#\Componente_TextBox\obj\Debug\Componente_TextBox.F_Veiculos.resources
