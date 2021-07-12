@@ -12,11 +12,20 @@ namespace Componente_TextBox
 {
     public partial class F_Veiculos : Form
     {
-        public F_Veiculos(String v)
+        F_Principal fp;
+        public F_Veiculos(String v, F_Principal f)
         {
             InitializeComponent();
 
             tb_list.Text = v;
+            fp = f;
+
+            f.num = 10;
+        }
+
+        private void F_Veiculos_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            fp.tb_LV.Text = tb_list.Text;
         }
     }
 }

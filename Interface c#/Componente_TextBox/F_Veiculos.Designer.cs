@@ -34,7 +34,7 @@ namespace Componente_TextBox
             // 
             // tb_list
             // 
-            this.tb_list.Location = new System.Drawing.Point(-4, 0);
+            this.tb_list.Location = new System.Drawing.Point(0, 0);
             this.tb_list.Multiline = true;
             this.tb_list.Name = "tb_list";
             this.tb_list.Size = new System.Drawing.Size(510, 376);
@@ -50,6 +50,7 @@ namespace Componente_TextBox
             this.Name = "F_Veiculos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lista de veiculos";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.F_Veiculos_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

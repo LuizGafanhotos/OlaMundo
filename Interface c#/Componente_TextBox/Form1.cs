@@ -12,9 +12,11 @@ namespace Componente_TextBox
 {
     public partial class F_Principal : Form
     {
+        public int num;
         public F_Principal()
         {
             InitializeComponent();
+            num = 0;
         }
 
         private void btn_adicionar_Click(object sender, EventArgs e)
@@ -40,8 +42,13 @@ namespace Componente_TextBox
 
         private void btn_Mostrar_Click(object sender, EventArgs e)
         {
-            F_Veiculos f_Veiculos = new F_Veiculos(tb_LV.Text);
+            F_Veiculos f_Veiculos = new F_Veiculos(tb_LV.Text,this);
             f_Veiculos.ShowDialog();
+        }
+
+        private void btn_vnum_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(num.ToString());
         }
     }
 }

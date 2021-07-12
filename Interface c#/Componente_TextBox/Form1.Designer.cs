@@ -35,6 +35,7 @@ namespace Componente_TextBox
             this.tb_LV = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.btn_Mostrar = new System.Windows.Forms.Button();
+            this.btn_vnum = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_adicionar
@@ -73,7 +74,7 @@ namespace Componente_TextBox
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(15, 325);
+            this.button1.Location = new System.Drawing.Point(12, 335);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(282, 23);
             this.button1.TabIndex = 4;
@@ -83,19 +84,30 @@ namespace Componente_TextBox
             // 
             // btn_Mostrar
             // 
-            this.btn_Mostrar.Location = new System.Drawing.Point(15, 349);
+            this.btn_Mostrar.Location = new System.Drawing.Point(12, 364);
             this.btn_Mostrar.Name = "btn_Mostrar";
-            this.btn_Mostrar.Size = new System.Drawing.Size(276, 23);
+            this.btn_Mostrar.Size = new System.Drawing.Size(282, 23);
             this.btn_Mostrar.TabIndex = 5;
             this.btn_Mostrar.Text = "Mostrar Veiculos";
             this.btn_Mostrar.UseVisualStyleBackColor = true;
             this.btn_Mostrar.Click += new System.EventHandler(this.btn_Mostrar_Click);
             // 
+            // btn_vnum
+            // 
+            this.btn_vnum.Location = new System.Drawing.Point(12, 393);
+            this.btn_vnum.Name = "btn_vnum";
+            this.btn_vnum.Size = new System.Drawing.Size(279, 20);
+            this.btn_vnum.TabIndex = 6;
+            this.btn_vnum.Text = "Valor da variavel num";
+            this.btn_vnum.UseVisualStyleBackColor = true;
+            this.btn_vnum.Click += new System.EventHandler(this.btn_vnum_Click);
+            // 
             // F_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(303, 384);
+            this.ClientSize = new System.Drawing.Size(307, 422);
+            this.Controls.Add(this.btn_vnum);
             this.Controls.Add(this.btn_Mostrar);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tb_LV);
@@ -116,9 +128,10 @@ namespace Componente_TextBox
         private System.Windows.Forms.Button btn_adicionar;
         private System.Windows.Forms.TextBox tb_Veiculo;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox tb_LV;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btn_Mostrar;
+        private System.Windows.Forms.Button btn_vnum;
+        public System.Windows.Forms.TextBox tb_LV;
     }
 }
 
