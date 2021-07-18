@@ -3,14 +3,14 @@
 	<Workspace title="Workspace">
 		<Project filename="MegaFuckingProject/MegaFuckingProject.cbp" />
 		<Project filename="Compilação/Definição/Definição.cbp" />
-		<Project filename="../../../../Curso de linguagem c e c++/Compilação/Variaveis/Variaveis.cbp" />
-		<Project filename="../../../../Curso de linguagem c e c++/Compilação/Teste_c++/Teste_c++.cbp" />
-		<Project filename="../../../../Curso de linguagem c e c++/Compilação/escape_Sequence/escape_Sequence.cbp" />
-		<Project filename="../../../../Curso de linguagem c e c++/Compilação/ProgramaPica/ProgramaPica.cbp" />
-		<Project filename="../../../../Curso de linguagem c e c++/Compilação/ProjetoIndesizo/ProjetoIndesizo.cbp" />
-		<Project filename="../../../../Curso de linguagem c e c++/Compilação/Modificadores_de_Tipo/Modificadores_de_Tipo.cbp" />
-		<Project filename="../../../../Curso de linguagem c e c++/Compilação/Repetição/Repetição.cbp" />
-		<Project filename="../../../../Curso de linguagem c e c++/Compilação/Operadores/Operadores.cbp" />
-		<Project filename="../../../../Curso de linguagem c e c++/Compilação/Depurar/Depurar.cbp" />
+		<Project filename="Compilação/Variaveis/Variaveis.cbp" />
+		<Project filename="Compilação/escape_Sequence/escape_Sequence.cbp" />
+		<Project filename="Compilação/Teste_c++/Teste_c++.cbp" />
+		<Project filename="Compilação/ProgramaPica/ProgramaPica.cbp" />
+		<Project filename="Compilação/ProjetoIndesizo/ProjetoIndesizo.cbp" />
+		<Project filename="Compilação/Modificadores_de_Tipo/Modificadores_de_Tipo.cbp" />
+		<Project filename="Compilação/Repetição/Repetição.cbp" />
+		<Project filename="Compilação/Operadores/Operadores.cbp" />
+		<Project filename="Compilação/Depurar/Depurar.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>

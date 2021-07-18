@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1624482761 source:c:\users\renata\documents\curso de linguagem c e c++\compilação\projetoindesizo\main.c
+	<stdio.h>
+	<stdlib.h>
+

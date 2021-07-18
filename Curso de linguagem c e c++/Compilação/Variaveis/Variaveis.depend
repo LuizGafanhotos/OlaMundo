@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1624070056 source:c:\users\renata\documents\curso de linguagem c e c++\compilação\variaveis\main.c
+	<stdio.h>
+	<stdlib.h>
+
