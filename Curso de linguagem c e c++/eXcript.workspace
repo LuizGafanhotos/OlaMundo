@@ -13,5 +13,6 @@
 		<Project filename="Compilação/Operadores/Operadores.cbp" />
 		<Project filename="Compilação/Depurar/Depurar.cbp" />
 		<Project filename="../../../../Curso de linguagem c e c++/Compilação/Switch/Switch.cbp" />
+		<Project filename="../../../../Curso de linguagem c e c++/Compilação/For/For.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>
