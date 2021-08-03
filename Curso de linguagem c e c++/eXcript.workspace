@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_workspace_file>
 	<Workspace title="Workspace">
-		<Project filename="../../../../Curso de linguagem c e c++/Compilação/Operador_De_Precendencia/Operador_De_Precendencia.cbp" />
-		<Project filename="../../../../Curso de linguagem c e c++/Compilação/BrekoeContinue/BrekoeContinue.cbp" />
+		<Project filename="../../../../Curso de linguagem c e c++/Compilação/Constantes/Constantes.cbp" />
+		<Project filename="Compilação/Modificadores_de_Tipo/Modificadores_de_Tipo.cbp" />
+		<Project filename="../../../../Curso de linguagem c e c++/Compilação/BDI/BDI.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>
