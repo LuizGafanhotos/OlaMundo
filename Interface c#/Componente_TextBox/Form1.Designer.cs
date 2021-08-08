@@ -36,11 +36,16 @@ namespace Componente_TextBox
             this.button1 = new System.Windows.Forms.Button();
             this.btn_Mostrar = new System.Windows.Forms.Button();
             this.btn_vnum = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.combonentesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.checkboxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.checkedListBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn_adicionar
             // 
-            this.btn_adicionar.Location = new System.Drawing.Point(222, 34);
+            this.btn_adicionar.Location = new System.Drawing.Point(220, 40);
             this.btn_adicionar.Name = "btn_adicionar";
             this.btn_adicionar.Size = new System.Drawing.Size(75, 23);
             this.btn_adicionar.TabIndex = 0;
@@ -50,7 +55,7 @@ namespace Componente_TextBox
             // 
             // tb_Veiculo
             // 
-            this.tb_Veiculo.Location = new System.Drawing.Point(15, 36);
+            this.tb_Veiculo.Location = new System.Drawing.Point(13, 40);
             this.tb_Veiculo.Name = "tb_Veiculo";
             this.tb_Veiculo.Size = new System.Drawing.Size(201, 20);
             this.tb_Veiculo.TabIndex = 1;
@@ -58,7 +63,7 @@ namespace Componente_TextBox
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(9, 24);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(90, 13);
             this.label1.TabIndex = 2;
@@ -66,7 +71,7 @@ namespace Componente_TextBox
             // 
             // tb_LV
             // 
-            this.tb_LV.Location = new System.Drawing.Point(15, 62);
+            this.tb_LV.Location = new System.Drawing.Point(13, 69);
             this.tb_LV.Multiline = true;
             this.tb_LV.Name = "tb_LV";
             this.tb_LV.Size = new System.Drawing.Size(282, 257);
@@ -74,7 +79,7 @@ namespace Componente_TextBox
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 335);
+            this.button1.Location = new System.Drawing.Point(12, 332);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(282, 23);
             this.button1.TabIndex = 4;
@@ -84,7 +89,7 @@ namespace Componente_TextBox
             // 
             // btn_Mostrar
             // 
-            this.btn_Mostrar.Location = new System.Drawing.Point(12, 364);
+            this.btn_Mostrar.Location = new System.Drawing.Point(12, 361);
             this.btn_Mostrar.Name = "btn_Mostrar";
             this.btn_Mostrar.Size = new System.Drawing.Size(282, 23);
             this.btn_Mostrar.TabIndex = 5;
@@ -94,7 +99,7 @@ namespace Componente_TextBox
             // 
             // btn_vnum
             // 
-            this.btn_vnum.Location = new System.Drawing.Point(12, 393);
+            this.btn_vnum.Location = new System.Drawing.Point(13, 390);
             this.btn_vnum.Name = "btn_vnum";
             this.btn_vnum.Size = new System.Drawing.Size(279, 20);
             this.btn_vnum.TabIndex = 6;
@@ -102,11 +107,44 @@ namespace Componente_TextBox
             this.btn_vnum.UseVisualStyleBackColor = true;
             this.btn_vnum.Click += new System.EventHandler(this.btn_vnum_Click);
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.combonentesToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(307, 24);
+            this.menuStrip1.TabIndex = 7;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // combonentesToolStripMenuItem
+            // 
+            this.combonentesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.checkboxToolStripMenuItem,
+            this.checkedListBoxToolStripMenuItem});
+            this.combonentesToolStripMenuItem.Name = "combonentesToolStripMenuItem";
+            this.combonentesToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
+            this.combonentesToolStripMenuItem.Text = "Combonentes";
+            // 
+            // checkboxToolStripMenuItem
+            // 
+            this.checkboxToolStripMenuItem.Name = "checkboxToolStripMenuItem";
+            this.checkboxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.checkboxToolStripMenuItem.Text = "Checkbox";
+            this.checkboxToolStripMenuItem.Click += new System.EventHandler(this.checkboxToolStripMenuItem_Click);
+            // 
+            // checkedListBoxToolStripMenuItem
+            // 
+            this.checkedListBoxToolStripMenuItem.Name = "checkedListBoxToolStripMenuItem";
+            this.checkedListBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.checkedListBoxToolStripMenuItem.Text = "CheckedListBox";
+            this.checkedListBoxToolStripMenuItem.Click += new System.EventHandler(this.checkedListBoxToolStripMenuItem_Click);
+            // 
             // F_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(307, 422);
+            this.ClientSize = new System.Drawing.Size(307, 446);
             this.Controls.Add(this.btn_vnum);
             this.Controls.Add(this.btn_Mostrar);
             this.Controls.Add(this.button1);
@@ -114,10 +152,13 @@ namespace Componente_TextBox
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tb_Veiculo);
             this.Controls.Add(this.btn_adicionar);
+            this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.Name = "F_Principal";
             this.Text = "Componentes";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -132,6 +173,10 @@ namespace Componente_TextBox
         private System.Windows.Forms.Button btn_Mostrar;
         private System.Windows.Forms.Button btn_vnum;
         public System.Windows.Forms.TextBox tb_LV;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem combonentesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem checkboxToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem checkedListBoxToolStripMenuItem;
     }
 }
 
