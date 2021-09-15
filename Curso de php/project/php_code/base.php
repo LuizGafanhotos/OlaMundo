@@ -29,7 +29,6 @@ function baseiro($fogareu){
         header('location', 'index.php');
         return; 
     }
-
     if($idade >= 6 && $idade <= 12){
         for($l =0; $l < count($categorias); $l++){
             if ($categorias[$l] == "INFANTIL"){
