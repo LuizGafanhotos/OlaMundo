@@ -1,3 +1,8 @@
+<?php
+session_start();
+include "base.php";
+$return = baseiro($_POST);
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -8,7 +13,18 @@
 </head>
 <body>
     <p>FORMULÁRIO PARA A COMPETIÇÃO</p>
-    <form action="base.php" method="post">
+    
+    <form method="post">
+        <?php
+            $mensagemDeSucesso = isset($_SESSION['mensagem de sucesso'])?$_SESSION['mensagem de sucesso']:'';
+            if(!empty($mensagemDeSucesso)){
+                echo $mensagemDeSucesso;
+            }
+            $mensagemDeErro = isset($_SESSION['mensagem de erro'])?$_SESSION['mensagem de erro']:'';
+            if(!empty($mensagemDeErro)){
+                echo $mensagemDeErro;
+            }
+        ?>
         <p>Seu nome: <input type="text" name="nome"></p>
         <p>Sua idade: <input type="text" name="idade"></p>
         <input type="submit" value="Mandar">

@@ -1,45 +1,59 @@
 <?php
 
-$categorias = [];
-$categorias[] = "INFANTIL";
-$categorias[] = "ADOLECENTES";
-$categorias[] = "ADULTO";
+function baseiro($fogareu){
+    $categorias = [];
+    $categorias[] = "INFANTIL";
+    $categorias[] = "ADOLECENTES";
+    $categorias[] = "ADULTO";
 
-$nome = $_POST["nome"] ?? "Eduardo";
-$idade = $_POST["idade"] ?? 7;
+    $nome = $fogareu['nome'];
+    $idade = $fogareu['idade'];
 
-if (empty($nome)){
-    echo "O nome não poderá ser vazio<br>";
-    return;
-}
-if (strlen($nome) < 3){
-    echo "O nome deve conter mais de 3 caracteres";
-    return;
-}
-if (strlen($nome) > 40){
-    echo "O nome é absurdamente extenso"; //Extenso pra krl mas enfim
-}
-if (!is_numeric($idade)){
-    echo "Informe um numero para a idade";
-    return;
-}
+    if (empty($nome)){
+        $_SESSION["mensagem de erro"] = " O nome não pode estar vazio: por favor preencha novamente";
+        header('location:','index.php');
+        return; 
+    }
+    else if (strlen($nome) < 3){
+        $_SESSION["mensagem de erro"] = " O nome deve conter mais de 3 caracteres: por favor preencha novamente";
+        header('location:','index.php');
+        return;
+    }
+    else if (strlen($nome) > 40){
+        $_SESSION["mensagem de erro"] = " O nome é absurdamente extenso: por favor preencha novamente";
+        header('location', 'index.php');
+        return; 
+    }
+    else if (!is_numeric($idade)){
+        $_SESSION["mensagem de erro"] = " Informe um numero para a idade";
+        header('location', 'index.php');
+        return; 
+    }
 
-if($idade >= 6 && $idade <= 12){
-    for($l =0; $l <= count($categorias); $l++){
-        if ($categorias[$l] == "INFANTIL"){
-            echo "O nadador ".$nome. "compete na categoria infantil";
+    if($idade >= 6 && $idade <= 12){
+        for($l =0; $l < count($categorias); $l++){
+            if ($categorias[$l] == "INFANTIL"){
+                $_SESSION['mensagem de sucesso'] = "O nadador ".$nome. "compete na categoria " .$categorias[$l]  ;
+                header('location', 'index.php');
+                
+            }
+        }
+    }else if ($idade >= 13 && $idade <= 18){
+        for($l = 0; $l < count($categorias); $l++){
+            if ($categorias[$l] == "ADOLECENTES") {
+                $_SESSION['mensagem de sucesso'] = "O nadador " .$nome. "compete na categoria " .$categorias[$l]  ;
+                header('location', 'index.php');
+                
+            }
+        }
+    }else{
+        for($l =0; $l < count($categorias); $l++){
+            if ($categorias[$l] == "ADULTO"){
+                $_SESSION['mensagem de sucesso'] = "O nadador ".$nome. " compete na categoria " .$categorias[$l]  ;
+                header('location', 'index.php'); 
+            }
         }
     }
-}else if ($idade >= 13 && $idade <= 18){
-    for($l = 0; $l <= count($categorias); $l++){
-        if ($categorias[$l] == "ADOLECENTES") {
-            echo "O nadador " .$nome. "compete na categoria adolecente";
-        }
-    }
-}else{
-    for($l =0; $l <= count($categorias); $l++){
-        if ($categorias[$l] == "ADULTO"){
-            echo "O nadador ".$nome. "compete na categoria adulto";
-        }
-    }
 }
+
+
