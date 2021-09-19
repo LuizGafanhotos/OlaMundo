@@ -1,7 +1,5 @@
 <?php
-session_start();
-include "base.php";
-$return = baseiro($_POST);
+    session_start();
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
